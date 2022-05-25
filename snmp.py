@@ -1,6 +1,6 @@
 # Realiza los escaneos de SNMP a cada host
 # Israel Torres Gonzalo
-# TFG UOC 2020/2021 S2
+# Update 2022 Q2 - Master Ciberseguridad TSS 
 
 import cnmap
 import os
