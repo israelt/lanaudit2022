@@ -1,13 +1,13 @@
 # LANAudit
 ![LANAudit](lanaudit.png)
-<h2>Herramienta para auditorías LAN</h2>
+<h2>Herramienta para auditorías LAN (Actualización 2022 Q2)</h2>
 
 ---
 
 ---
 
 ## ADVERTENCIA
-Esta utilidad pertenece al **proyecto de fin de grado de la UOC 2020/2021 S2**. El creador de esta utilidad se exime de cualquier daño o perjuicio derivado de su uso incorrecto o su uso en redes en producción. Está orientada a la auditoría de redes y su uso se deberá limitar a redes de test o laboratorios virtuales.
+Esta utilidad es el proyecto del **Master de Ciberseguridad - The Security Sentinel**. El creador de esta utilidad se exime de cualquier daño o perjuicio derivado de su uso incorrecto o su uso en redes en producción. Está orientada a la auditoría de redes y su uso se deberá limitar a redes de test o laboratorios virtuales.
 
 La instalación de la función de auto-arranque `enable_autostart.sh` configura **LANAudit** para su arranque en cada inicio del sistema operativo. Por ello, se recomienda la instalación y el uso de **LANAudit** en un sistema operativo recién instalado y dedicado a esta tarea. 
 
@@ -18,7 +18,7 @@ No se debe instalar **LANAudit** en sistemas operativos Linux dedicados a tareas
 ---
 
 ## REQUERIMIENTOS
-- KALI Linux 2021.1 (64bits) o 2021.2 (64bits) Release (https://www.kali.org/downloads/)
+- KALI Linux 2022.2 (64bits) o 2022.2 (64bits) Release (https://www.kali.org/downloads/)
 
 Versiones x86 (64bits) para funcionalidades completas y versiones ARM para funcionalidades limitadas: sin escáner de vulnerabilidades WEB.
 
@@ -45,7 +45,7 @@ El proceso de instalación para versiones x86 (64bits) es:
 ```
 sudo su
 cd /opt
-git clone https://github.com/israelt/lanaudit.git
+git clone https://github.com/israelt/lanaudit2022.git lanaudit
 cd /opt/lanaudit/install
 sh ./install.sh
 ```
