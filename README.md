@@ -9,6 +9,11 @@
 ## ADVERTENCIA
 Esta utilidad es el proyecto del **Master de Ciberseguridad - The Security Sentinel**. El creador de esta utilidad se exime de cualquier daño o perjuicio derivado de su uso incorrecto o su uso en redes en producción. Está orientada a la auditoría de redes y su uso se deberá limitar a redes de test o laboratorios virtuales.
 
+La instalación de **LANAudit** configura Python2 como interprete de Python por defecto, en lugar de Python3. Esto es necesario para mantener la compatibilidad con utilidades legacy necesarias para su correcta ejecución. Si fuera necesario dejar Python3 como interprete por defecto, esto haría que **LANAudit** dejara de funcionar correctamente, desde una shell de sistema ejecutamos con permisos de root:
+```
+update-alternatives --install /usr/bin/python python /usr/bin/python3 1
+```
+
 La instalación de la función de auto-arranque `enable_autostart.sh` configura **LANAudit** para su arranque en cada inicio del sistema operativo. Por ello, se recomienda la instalación y el uso de **LANAudit** en un sistema operativo recién instalado y dedicado a esta tarea. 
 
 No se debe instalar **LANAudit** en sistemas operativos Linux dedicados a tareas de escritorio o servidores. Se recomienda el uso dedicado de un sistema operativo/máquina para el uso de **LANAudit**
