@@ -1,7 +1,7 @@
 # Realiza los escaneos de SMBGHOST a cada host
 # Basado en el script SMBGhost de ollypwn (git://github.com/ollypwn/SMBGhost)
 # Israel Torres Gonzalo
-# TFG UOC 2020/2021 S2
+# Update 2022 Q2 - Master Ciberseguridad TSS 
 
 import os
 import sqlite3
