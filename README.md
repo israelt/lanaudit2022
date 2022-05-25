@@ -41,7 +41,7 @@ El proceso de instalación para versiones x86 (64bits) es:
 - Se descarga y ejecuta **KALI Linux 2021.1** o **KALI Linux 2021.2**
 - Se hace login y desde una ventana de **shell** se cambia a usuario **root** mediante `sudo su`
 - En shell de **root** se apunta al directorio **/opt** mediante `cd /opt`
-- Se clona el repositorio del proyecto mediante `git clone https://github.com/israelt/lanaudit.git`
+- Se clona el repositorio del proyecto mediante `git clone https://github.com/israelt/lanaudit2022.git lanaudit`
 - Se apunta al directorio **/opt/lanaudit/install** mediante `cd /opt/lanaudit/install`
 - Se actualiza la release de **KALI Linux** e instalan todos los paquetes necesarios en el sistema mediante el comando `sh ./install.sh`
 - Una vez finalizada la instalación se puede proceder a ejecutar la aplicación o configurarla para que se lance de forma automática en los próximos arranques del sistema.
