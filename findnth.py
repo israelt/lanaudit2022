@@ -1,6 +1,6 @@
 # Script para encontrar la enésima coincidencia en una cadena
 # Israel Torres Gonzalo
-# TFG UOC 2020/2021 S2
+# Update 2022 Q2 - Master Ciberseguridad TSS 
 
 def find_nth(string, substring, n):
     if n == 1:
