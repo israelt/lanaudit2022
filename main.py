@@ -1,6 +1,6 @@
 # LANAudit MAIN
 # Israel Torres Gonzalo
-# TFG UOC 2020/2021 S2
+# Update 2022 Q2 - Master Ciberseguridad TSS 
 
 from datetime import datetime
 import os
