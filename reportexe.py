@@ -1,6 +1,6 @@
 # Realiza el reporte ejecutivo
 # Israel Torres Gonzalo
-# TFG UOC 2020/2021 S2
+# Update 2022 Q2 - Master Ciberseguridad TSS 
 
 import sqlite3
 import os
