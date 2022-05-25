@@ -1,6 +1,6 @@
 # Lee la configuracion desde archivo INI -> lanaudit.ini
 # Israel Torres Gonzalo
-# TFG UOC 2020/2021 S2
+# Update 2022 Q2 - Master Ciberseguridad TSS 
 
 import configparser
 
