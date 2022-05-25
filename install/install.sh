@@ -1,9 +1,11 @@
 #!/bin/bash
 # EJECUTAR CON PERMISOS DE ROOT / SUDO
-# PROBADO EN KALI2020.4 Y KALI2021.1
+# PROBADO EN KALI2022.2
 # ACTUALIZANDO DISTRIBUCION
 sudo apt -y update
 sudo apt -y upgrade
+# CONFIGURANDO PYTHON2 COMO VERSION DE PYTHON POR DEFECTO
+update-alternatives --install /usr/bin/python python /usr/bin/python2 1
 # INSTALANDO DHCPIG
 echo INSTALANDO DHCPIG
 cd /opt
@@ -12,7 +14,7 @@ sudo unzip -o master.zip
 cd scapy-2.3.3
 sudo python setup.py install
 cd /opt
-sudo git clone git://github.com/kamorin/DHCPig
+sudo git clone https://github.com/kamorin/DHCPig
 # INSTALANDO NBTSCAN
 echo INSTALANDO NBTSCAN
 sudo apt install nbtscan-unixwiz
@@ -27,14 +29,14 @@ pip3 install -r requirements.txt
 # INSTALANDO NMAP_SCRIPTS
 echo INSTALANDO NMAP_SCRIPTS
 cd /opt
-sudo git clone git://github.com/psc4re/NSE-scripts
+sudo git clone https://github.com/psc4re/NSE-scripts
 cd NSE-scripts
 sudo cp cve-2020-0796.nse /usr/share/nmap/scripts/
 sudo nmap --script-updatedb
 # INSTALANDO SMBGHOST
 echo INSTALANDO SMBGHOST
 cd /opt
-sudo git clone git://github.com/ollypwn/SMBGhost
+sudo git clone https://github.com/ollypwn/SMBGhost
 cd SMBGhost
 # INSTALANDO ARACHNI
 echo INSTALANDO ARACHNI
