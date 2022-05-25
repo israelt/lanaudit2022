@@ -1,6 +1,6 @@
 # Realiza los escaneos de cuentas de invitados activas en sistemas Windows
 # Israel Torres Gonzalo
-# TFG UOC 2020/2021 S2
+# Update 2022 Q2 - Master Ciberseguridad TSS 
 
 from shlex import split
 from shutil import copyfile
