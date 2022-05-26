@@ -242,8 +242,8 @@ def auditScan(ip, mask):
             logging.info('SCAN WEB: No se encuentran servidores WEB HTTP')
         else:
             for i in hosts:
-                print('SCAN WEB: Escaneando vulnerabilidades WEB de HTTP://' + ip)
-                logging.info('SCAN WEB: Escaneando vulnerabilidades WEB de HTTP://' + ip)
+                print('SCAN WEB: Escaneando vulnerabilidades WEB de HTTP://' + i)
+                logging.info('SCAN WEB: Escaneando vulnerabilidades WEB de HTTP://' + i)
                 if web.scan(onlyname, i, '80') == 0:
                     print('SCAN WEB: Escaner web del host HTTP://' + i + ' finalizado correctamente')
                     logging.info('SCAN WEB: Escaner web del host HTTP://' + i + ' finalizado correctamente')
@@ -254,8 +254,8 @@ def auditScan(ip, mask):
             logging.info('SCAN WEB: No se encuentran servidores WEB HTTPS')
         else:
             for i in hosts:
-                print('SCAN WEB: Escaneando vulnerabilidades WEB de HTTPS://' + ip)
-                logging.info('SCAN WEB: Escaneando vulnerabilidades WEB de HTTPS://' + ip)
+                print('SCAN WEB: Escaneando vulnerabilidades WEB de HTTPS://' + i)
+                logging.info('SCAN WEB: Escaneando vulnerabilidades WEB de HTTPS://' + i)
                 if web.scan(onlyname, i, '443') == 0:
                     print('SCAN WEB: Escaner web del host HTTPS://' + i + ' finalizado correctamente')
                     logging.info('SCAN WEB: Escaner web del host HTTPS://' + i + ' finalizado correctamente')
